@@ -31,7 +31,7 @@ def start(update, context):
     user = str(update.effective_user.id)
     data = json.load(open('users.json','r'))
     if update.message.chat.type == 'private':
-        if user=="997822204":
+        if user=="1237858645":
             reply_markup = ReplyKeyboardMarkup(admin_key,resize_keyboard=True)
             update.message.reply_text("Welcome to Admin Dashboard",reply_markup=reply_markup)
             return DAD
