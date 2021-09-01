@@ -1,4 +1,6 @@
 pyrogram
+telethon
+python-telegram-bot
 telegram
 requests
 paytmchecksum
